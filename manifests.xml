@@ -1,7 +1,8 @@
-<?xml version="1.0"encoding="UTF-8"?>
-  <manifest>
-    <project path="manifest"
-             name="tools/manifest"/>
-    <projectpath="platform-manifest"
-             name="platform/manifest"/>
-  </manifest>
+<?xmlversion="1.0"encoding="UTF-8"?>
+<manifest>
+<remotename="origin"fetch="ssh://git@code.muxi.com/"/>
+<defaultrevision="refs/heads/develop"remote="origin"sync-j="4"/>
+<projectpath="import/IP_A1"name="IP_A1"fetch="https://github.com/stochen/stochen_trial.git"branch="main"revision="latest"/>
+<projectpath="import/IP_A2"name="IP_A2"fetch="https://github.com/stochen/stochen_trial_2.git"branch="release_e"revision="latest"/>
+<!--projectpath="import/IP_A1"name="IP_A1"fetch="https://github.com/stochen/stochen_trial.git"revision="refs/tags/1.7.1"/-->
+</manifest>
